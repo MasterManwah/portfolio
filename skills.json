@@ -2,7 +2,7 @@
   {
     "category": "Data & BI",
     "items": [
-      "Microsoft SQL Server (2017+)",
+      "Microsoft SQL Server",
       "SQL (queries, views, stored procedures)",
       "Power BI (dashboards, DAX, data modeling)",
       "SSRS (operational & management reporting)",
