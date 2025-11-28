@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Manufacturing Solutions Specialist",
+    "company": "Armstrong World Industries · Lancaster, PA",
+    "date": "Oct 2019 – Present",
+    "points": [
+      "Manage and optimize SQL Server environments supporting manufacturing operations.",
+      "Build Power BI and SSRS reports used by operations and leadership teams.",
+      "Oversee ETL workflows and data quality across ERP, WMS, and shipping systems.",
+      "Collaborate with stakeholders to define requirements and deliver BI solutions."
+    ]
+  },
+  {
+    "title": "Service Desk Technician",
+    "company": "Armstrong World Industries",
+    "date": "Nov 2016 – Oct 2019",
+    "points": [
+      "Created Power BI dashboards for service performance and SLA monitoring.",
+      "Developed Power Apps and Power Automate workflows to streamline internal processes.",
+      "Maintained a 60%+ first-contact resolution rate and high customer satisfaction."
+    ]
+  },
+  {
+    "title": "Assistant Store Manager",
+    "company": "GameStop · Harrisburg, PA",
+    "date": "May 2016 – Oct 2016",
+    "points": [
+      "Analyzed sales and inventory trends to support ordering and merchandising decisions.",
+      "Led daily store operations and customer service initiatives."
+    ]
+  }
+]
