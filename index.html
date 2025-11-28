@@ -98,52 +98,11 @@
         <p>Tools and technologies I use to build data solutions.</p>
       </div>
 
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Data & BI</h3>
-          <ul>
-            <li>Microsoft SQL Server (2017+)</li>
-            <li>SQL (queries, views, stored procedures)</li>
-            <li>Power BI (dashboards, DAX, data modeling)</li>
-            <li>SSRS (operational & management reporting)</li>
-            <li>ETL / data integration & performance tuning</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Applications & Systems</h3>
-          <ul>
-            <li>Epicor ERP</li>
-            <li>Manhattan SCALE WMS</li>
-            <li>FedEx Ship Manager Server (FSMS)</li>
-            <li>Newforma Project Center</li>
-            <li>ServiceNow</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Development & Automation</h3>
-          <ul>
-            <li>C#, .NET</li>
-            <li>Power Apps & Power Automate</li>
-            <li>PowerShell scripting</li>
-            <li>LUA & basic JavaScript</li>
-            <li>Azure DevOps, GitHub, source control</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <h3>Professional Strengths</h3>
-          <ul>
-            <li>End-to-end solution ownership</li>
-            <li>Stakeholder collaboration</li>
-            <li>Requirements gathering & translation</li>
-            <li>Process improvement & automation</li>
-            <li>Bilingual: English & Spanish</li>
-          </ul>
-        </div>
+      <div id="skills-grid" class="skills-grid">
+        <!-- Skill cards will be injected from skills.json -->
       </div>
     </section>
+
 
     <!-- Projects -->
     <section id="projects" class="section projects">
@@ -152,67 +111,11 @@
         <p>Examples of how I’ve used data to solve real problems.</p>
       </div>
 
-      <div class="projects-grid">
-        <article class="project-card">
-          <h3>Manufacturing Performance Dashboard</h3>
-          <p class="project-tag">Power BI • SQL Server • KPI Reporting</p>
-          <p>
-            Designed and built a Power BI dashboard that consolidates production, downtime,
-            and labor efficiency metrics across multiple manufacturing facilities.
-            Implemented optimized SQL views and DAX measures to support near real-time
-            monitoring for plant leadership.
-          </p>
-          <ul class="project-points">
-            <li>Reduced manual reporting time by replacing Excel-based reports.</li>
-            <li>Enabled leadership to quickly identify bottlenecks and trends.</li>
-            <li>Improved visibility into performance KPIs across sites.</li>
-          </ul>
-        </article>
-
-        <article class="project-card">
-          <h3>WMS & Shipping Data Integration</h3>
-          <p class="project-tag">SQL Server • ETL • SCALE WMS • FSMS</p>
-          <p>
-            Developed and maintained data integrations between Manhattan SCALE WMS and
-            FedEx Ship Manager Server to ensure consistent, accurate shipment and inventory data
-            across systems.
-          </p>
-          <ul class="project-points">
-            <li>Created ETL routines and SQL jobs to synchronize key data elements.</li>
-            <li>Improved data reliability for operational and logistics reporting.</li>
-            <li>Supported audit and compliance requirements across facilities.</li>
-          </ul>
-        </article>
-
-        <article class="project-card">
-          <h3>Service Operations Analytics</h3>
-          <p class="project-tag">Power BI • Power Automate • ServiceNow</p>
-          <p>
-            Built internal dashboards and automations to monitor service desk performance,
-            ticket volume, SLA compliance, and user satisfaction.
-          </p>
-          <ul class="project-points">
-            <li>Created Power BI reports using ServiceNow data exports.</li>
-            <li>Implemented Power Automate flows to streamline ticket routing.</li>
-            <li>Helped leadership understand workload, trends, and improvement areas.</li>
-          </ul>
-        </article>
-
-        <article class="project-card">
-          <h3>Custom C# Tools for Plant Operations</h3>
-          <p class="project-tag">C# • .NET • SQL Server</p>
-          <p>
-            Developed C# applications integrated with SQL Server to support specific
-            manufacturing and operations use cases, replacing manual or legacy processes.
-          </p>
-          <ul class="project-points">
-            <li>Automated repetitive data entry and lookup tasks.</li>
-            <li>Reduced error rates and improved data consistency.</li>
-            <li>Provided more usable interfaces for plant staff.</li>
-          </ul>
-        </article>
+      <div id="projects-grid" class="projects-grid">
+        <!-- Project cards will be injected here from projects.json -->
       </div>
     </section>
+
 
     <!-- Experience -->
     <section id="experience" class="section experience">
@@ -221,41 +124,11 @@
         <p>Where I’ve been applying my skills.</p>
       </div>
 
-      <div class="timeline">
-        <article class="timeline-item">
-          <h3>Manufacturing Solutions Specialist</h3>
-          <p class="timeline-company">Armstrong World Industries · Lancaster, PA</p>
-          <p class="timeline-date">Oct 2019 – Present</p>
-          <ul>
-            <li>Manage and optimize SQL Server environments supporting manufacturing operations.</li>
-            <li>Build Power BI and SSRS reports used by operations and leadership teams.</li>
-            <li>Oversee ETL workflows and data quality across ERP, WMS, and shipping systems.</li>
-            <li>Collaborate with stakeholders to define requirements and deliver BI solutions.</li>
-          </ul>
-        </article>
-
-        <article class="timeline-item">
-          <h3>Service Desk Technician</h3>
-          <p class="timeline-company">Armstrong World Industries</p>
-          <p class="timeline-date">Nov 2016 – Oct 2019</p>
-          <ul>
-            <li>Created Power BI dashboards for service performance and SLA monitoring.</li>
-            <li>Developed Power Apps and Power Automate workflows to streamline internal processes.</li>
-            <li>Maintained a 60%+ first-contact resolution rate and high customer satisfaction.</li>
-          </ul>
-        </article>
-
-        <article class="timeline-item">
-          <h3>Assistant Store Manager</h3>
-          <p class="timeline-company">GameStop · Harrisburg, PA</p>
-          <p class="timeline-date">May 2016 – Oct 2016</p>
-          <ul>
-            <li>Analyzed sales and inventory trends to support ordering and merchandising decisions.</li>
-            <li>Led daily store operations and customer service initiatives.</li>
-          </ul>
-        </article>
+      <div id="experience-timeline" class="timeline">
+        <!-- Experience items will be injected from experience.json -->
       </div>
     </section>
+
 
     <!-- Education & Certifications -->
     <section id="education" class="section education">
@@ -315,9 +188,7 @@
     <p>© <span id="year"></span> Manuel J. Matos Jr · Data & BI Portfolio</p>
   </footer>
 
-  <script>
-    // Simple script to keep the footer year current
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>
+

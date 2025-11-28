@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Data & BI",
+    "items": [
+      "Microsoft SQL Server (2017+)",
+      "SQL (queries, views, stored procedures)",
+      "Power BI (dashboards, DAX, data modeling)",
+      "SSRS (operational & management reporting)",
+      "ETL / data integration & performance tuning",
+      "Data visualization & KPI reporting"
+    ]
+  },
+  {
+    "category": "Applications & Systems",
+    "items": [
+      "Epicor ERP",
+      "Manhattan SCALE WMS",
+      "FedEx Ship Manager Server (FSMS)",
+      "Newforma Project Center",
+      "ServiceNow"
+    ]
+  },
+  {
+    "category": "Development & Automation",
+    "items": [
+      "C# & .NET",
+      "Power Apps & Power Automate",
+      "PowerShell scripting",
+      "LUA & basic JavaScript",
+      "Azure DevOps & GitHub (source control)"
+    ]
+  },
+  {
+    "category": "Professional Strengths",
+    "items": [
+      "End-to-end solution ownership",
+      "Stakeholder collaboration",
+      "Requirements gathering & translation",
+      "Process improvement & automation",
+      "Bilingual: English & Spanish"
+    ]
+  }
+]
