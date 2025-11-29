@@ -1,0 +1,55 @@
+<svg width="420" height="420" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient (attractive blue → indigo → deep navy) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4fc5ff"/>
+      <stop offset="55%" stop-color="#2f4d7d"/>
+      <stop offset="100%" stop-color="#0c1220"/>
+    </linearGradient>
+
+    <!-- Hex mesh analytical texture -->
+    <pattern id="hexmesh" width="24" height="21" patternUnits="userSpaceOnUse" patternTransform="scale(0.8)">
+      <polygon
+        points="6,0 18,0 24,10.5 18,21 6,21 0,10.5"
+        fill="none"
+        stroke="rgba(255,255,255,0.08)"
+        stroke-width="1"
+      />
+    </pattern>
+  </defs>
+
+  <!-- Circular badge with gradient -->
+  <circle cx="210" cy="210" r="200" fill="url(#bgGrad)" />
+
+  <!-- Inner hexagonal analytical mesh -->
+  <circle cx="210" cy="210" r="185" fill="url(#hexmesh)" opacity="0.65"/>
+
+  <!-- Bar chart / rising KPIs -->
+  <rect x="110" y="230" width="35" height="70" rx="8" fill="#050711" opacity="0.85"/>
+  <rect x="160" y="185" width="35" height="115" rx="8" fill="#050711" opacity="0.85"/>
+  <rect x="210" y="145" width="35" height="155" rx="8" fill="#050711" opacity="0.85"/>
+  <rect x="260" y="100" width="35" height="200" rx="8" fill="#050711" opacity="0.85"/>
+
+  <!-- Stylized "MM" overlaid (slightly thicker than original for clarity) -->
+  <path
+    d="M125 305 V150 H155 L175 205 L195 150 H225 V305"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.97"
+  />
+  <path
+    d="M195 305 V150 H225 L245 205 L265 150 H295 V305"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.97"
+  />
+
+  <!-- Outer halo ring -->
+  <circle cx="210" cy="210" r="195" fill="none" stroke="#6dd8ff" stroke-width="3" opacity="0.45"/>
+</svg>

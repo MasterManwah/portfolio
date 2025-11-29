@@ -78,22 +78,65 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
   padding: 0.9rem 1.5rem;
 }
 
+/* Mini hero text inside nav, hidden by default */
+.nav-hero-mini {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateY(4px);
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.nav-hero-tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.nav-hero-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* When compact, show the mini hero text */
+body.hero-compact .nav-hero-mini {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* When compact, you *can* slightly tighten the nav padding too */
+body.hero-compact .nav {
+  padding-block: 0.55rem;
+}
+
+
 .logo {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 20%, #ffffff, #40b7ff 45%, #1f263d 100%);
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: #050711;
-  box-shadow: 0 0 0 2px rgba(64, 183, 255, 0.3);
 }
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  box-shadow:
+    0 0 8px rgba(64,183,255,0.5),
+    0 0 12px rgba(64,183,255,0.35),
+    0 0 18px rgba(64,183,255,0.25);
+}
+
 
 .nav-links {
   list-style: none;
@@ -136,10 +179,12 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 3rem 1.5rem 3.5rem 1.5rem;
+  transition: padding 0.22s ease, background 0.22s ease;
 }
 
 .hero-content {
   max-width: 720px;
+  transition: gap 0.22s ease, transform 0.22s ease;
 }
 
 .hero-tag {
@@ -152,11 +197,13 @@ body {
   padding: 0.25rem 0.9rem;
   font-size: 0.8rem;
   margin-bottom: 0.75rem;
+  transition: font-size 0.22s ease, padding 0.22s ease, margin 0.22s ease;
 }
 
 .hero h1 {
   margin: 0 0 0.75rem 0;
   font-size: clamp(2.3rem, 4vw, 3rem);
+  transition: font-size 0.22s ease, margin 0.22s ease;
 }
 
 .hero-subtitle {
