@@ -3,7 +3,7 @@
     "category": "Data & BI",
     "items": [
       "Microsoft SQL Server",
-      "SQL (queries, views, stored procedures)",
+      "SQL (queries, views, stored procedures, functions)",
       "Power BI (dashboards, DAX, data modeling)",
       "SSRS (operational & management reporting)",
       "ETL / data integration & performance tuning",
@@ -13,9 +13,10 @@
   {
     "category": "Applications & Systems",
     "items": [
-      "Epicor ERP",
+      "SQL Server Manager Studio (SSMS)",
       "Manhattan SCALE WMS",
       "FedEx Ship Manager Server (FSMS)",
+      "Epicor ERP",
       "Newforma Project Center",
       "ServiceNow"
     ]
@@ -33,7 +34,7 @@
   {
     "category": "Professional Strengths",
     "items": [
-      "End-to-end solution ownership",
+      "End-to-End solution ownership",
       "Stakeholder collaboration",
       "Requirements gathering & translation",
       "Process improvement & automation",

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Manufacturing Data Platform",
+    "tag": "SQL • ETL • Power BI",
+    "description": "Developed a centralized enterprise data warehouse using SSIS/SSAS ETL pipelines to integrate multiple source application databases into a unified tabular model with optimized Dimension and Fact tables for high-performance Power BI analytics and reporting.",
+    "points": [
+      "Consolidated disparate data sources into a single trusted data repository, improving data consistency and eliminating reporting silos.",
+      "Accelerated analytics and decision-making through optimized Dim/Fact structures and a performant SSAS tabular model powering Power BI dashboards.",
+      "Reduced manual reporting effort by enabling automated data refreshes, standardized KPIs, and self-service analytics for business stakeholders."
+    ]
+  },
+  {
+    "title": "WMS & Shipping Data Integration",
+    "tag": "SQL • SCALE WMS • FSMS",
+    "description": "Integrated FedEx Ship Manager Server with Manhattan SCALE WMS to automate label generation, rate service calls, and shipment execution, ensuring seamless carrier connectivity and accurate outbound logistics processing.",
+    "points": [
+      "Reduced operational time and labor by automating shipping steps and eliminating manual label entry.",
+      "Improved shipment accuracy and tracking through direct data synchronization between WMS orders and FedEx carrier services.",
+      "Enhanced throughput and scalability in outbound logistics, supporting higher order volumes with lower error rates."
+    ]
+  },
+  {
+    "title": "Custom C# Tools for Plant Operations",
+    "tag": "C# • SQL",
+    "description": "Developed a custom C# application for plant operations enabling centralized management of user profiles across multiple databases with role-based access and streamlined administration.",
+    "points": [
+      "Increased administrative efficiency by allowing centralized updates rather than maintaining users separately within each database.",
+      "Improved security and compliance through consistent access control and standardized permission enforcement across all systems.",
+      "Reduced downtime and support overhead by simplifying user provisioning, credential updates, and role changes with a faster, unified process."
+    ]
+  }
+]

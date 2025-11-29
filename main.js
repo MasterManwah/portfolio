@@ -6,7 +6,35 @@ document.addEventListener("DOMContentLoaded", () => {
   loadProjects();
   loadSkills();
   loadExperience();
+  setupHeroCompaction();
 });
+
+//Header scroll feature
+function setupHeroCompaction() {
+  const hero = document.querySelector(".hero");
+  if (!hero) return;
+
+  const body = document.body;
+  const ENTER_THRESHOLD = 160;
+  const EXIT_THRESHOLD = 80;
+  let isCompact = false;
+
+  function onScroll() {
+    const y = window.scrollY;
+
+    if (!isCompact && y > ENTER_THRESHOLD) {
+      isCompact = true;
+      body.classList.add("hero-compact");
+    } else if (isCompact && y < EXIT_THRESHOLD) {
+      isCompact = false;
+      body.classList.remove("hero-compact");
+    }
+  }
+
+  onScroll();
+  window.addEventListener("scroll", onScroll);
+}
+
 
 // 1) Footer year
 function setCurrentYear() {
@@ -22,7 +50,7 @@ async function loadProjects() {
   if (!container) return;
 
   try {
-    const res = await fetch("projects.json");
+    const res = await fetch("configs/projects.json");
     if (!res.ok) throw new Error("Failed to fetch projects.json");
     const projects = await res.json();
 
@@ -69,7 +97,7 @@ async function loadSkills() {
   if (!container) return;
 
   try {
-    const res = await fetch("skills.json");
+    const res = await fetch("configs/skills.json");
     if (!res.ok) throw new Error("Failed to fetch skills.json");
     const categories = await res.json();
 
@@ -106,7 +134,7 @@ async function loadExperience() {
   if (!container) return;
 
   try {
-    const res = await fetch("experience.json");
+    const res = await fetch("configs/experience.json");
     if (!res.ok) throw new Error("Failed to fetch experience.json");
     const roles = await res.json();
 
